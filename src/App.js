@@ -76,29 +76,6 @@ function ChangeColor() {
             </div>
         </div>
     )
-    /*return (
-        <div style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-            height: "100vh"
-        }}>
-            <div style={{display: "flex", justifyContent: "center", flexDirection: "column"}}>
-                <div style={{width: "200px", marginBottom: "20px"}}>
-                    <p>Welcome Cool Guys{text.name}! </p>
-                    <p>You lucky number {text.luckyNumber} </p>
-                    <p>Name has changed {text.times}times</p>
-                </div>
-                <div style={styleDiv}>
-                    <button id={"changeName"}>Change name</button>
-                </div>
-                <div style={styleDiv}>
-                    <button id={"luckyNumber"}>Get new lucky number!</button>
-                </div>
-            </div>
-        </div>
-    )*/
 }
 
 export default ChangeColor;
